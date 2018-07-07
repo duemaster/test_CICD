@@ -4,16 +4,14 @@ node_js:
   - "8"
 
 before_install:
-  - npm install -g @angular/cli
 
 install:
-  - npm install
 
 before_script:
-
+  - npm install -g @angular/cli
 
 script:
-
+  - npm install
 
 after_success:
 
