@@ -15,6 +15,7 @@ script:
 
 after_success:
   - ng build --prod
+  - npm install express path
 
 after_failure:
 
