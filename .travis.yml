@@ -14,14 +14,10 @@ script:
   - npm install
 
 after_success:
-  - ng build --prod
-  - npm install express path
 
 after_failure:
 
-
 after_script:
-  - ls -all;
 
 deploy:
   provider: heroku
