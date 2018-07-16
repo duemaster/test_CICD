@@ -10,7 +10,7 @@
         "build": "ng build --prod",
         "e2e": "ng e2e",
         "ng": "ng",
-        "deploy": "firebase deploy --token "$FIREBASE_TOKEN""
+        "deploy": "firebase deploy --token $FIREBASE_TOKEN"
     },
     "keywords": [],
     "author": "",
